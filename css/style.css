@@ -211,7 +211,12 @@ footer{
 }
 
 .brands{
+margin-top: 79px;
+margin-bottom: 74px;
+}
 
+.brands h4{
+    text-transform: uppercase;
 }
 
 .brands h2:after{
