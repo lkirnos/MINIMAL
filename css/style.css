@@ -293,6 +293,12 @@ footer{
     margin-top: 28px;
     margin-bottom: 43px;
 }
+
+.project_names{
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
 .projects h4{
     font-family: 'montserratregular';
     font-style: normal;
@@ -303,6 +309,7 @@ footer{
     text-transform: uppercase;
     color: #333333;
     margin-top: 19px;
+    margin-bottom: 4px;
 }
 
 .projects p{
@@ -313,12 +320,5 @@ footer{
     line-height: 20px;
     text-align: center;
     color: #333333;
-    margin-top: 4px;
     margin-bottom: 21px;
-}
-
-.projects_names{
-    background-color: #FFFFFF;
-    padding: 19px;
-    margin-bottom: 20px;
 }
