@@ -211,8 +211,7 @@ footer{
 }
 
 .brands{
-    margin-top: 79px;
-    margin-bottom: 74px;
+    padding: 79px 0 74px;
 }
 
 .brands h2{
@@ -267,8 +266,7 @@ footer{
 }
 
 .projects{
-    margin-top: 79px;
-    margin-bottom: 89px;
+    padding: 79px 0 89px;
     background-color: #F5F5F5;
 }
 
