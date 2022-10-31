@@ -236,8 +236,13 @@ footer{
     margin-bottom: 43px;
 }
 
+.brands_articles{
+    max-width: 300px
+}
+
 .brands_icons{
-    max-width: 300px;
+    width: 100%;
+    display: block;
     background-color: #F5F5F5;
     padding: 50px 87px;
     margin-left: 20px;
