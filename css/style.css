@@ -240,12 +240,14 @@ footer{
     max-width: 300px
 }
 
-.brands_icons{
+.brands img{
     width: 100%;
+}
+
+.brands_icons{
     display: block;
     background-color: #F5F5F5;
     padding: 50px 87px;
-    margin-left: 20px;
     margin-bottom: 38px;
 }
 
