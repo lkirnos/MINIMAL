@@ -17,6 +17,9 @@
 
 header{
     padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .container{
@@ -144,6 +147,7 @@ footer{
     background-image: url(../images/main_banner.jpg);
     background-size: cover;
     display: flex;
+    padding: 105px 0 101px;
 }
 .main_banner h1{
     font-family: 'montserratregular';
