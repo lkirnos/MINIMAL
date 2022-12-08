@@ -412,6 +412,8 @@ header nav li a:hover {
 
 .contacts_social {
   list-style: none;
+  width: 95px;
+  margin: auto;
 }
 .contacts_social li {
   font-family: "Vollkorn", serif;
@@ -419,7 +421,7 @@ header nav li a:hover {
   font-weight: 400;
   font-size: 17px;
   line-height: 22px;
-  text-align: center;
+  text-align: left;
   color: #212121;
   margin-bottom: 11px;
 }

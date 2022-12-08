@@ -433,13 +433,15 @@ header{
 
 .contacts_social{
     list-style: none;
+    width: 95px;
+    margin: auto;
     li{
         font-family: 'Vollkorn', serif;
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
         line-height: 22px;
-        text-align: center;
+        text-align: left;
         color: #212121;
         margin-bottom: 11px;
         &:first-of-type{
