@@ -304,6 +304,7 @@ header nav li a:hover {
 
 .team_pictures {
   max-width: 220px;
+  margin: auto;
   margin-bottom: 20px;
 }
 .team_pictures img {
@@ -378,6 +379,7 @@ header nav li a:hover {
 
 .review {
   text-align: center;
+  margin: auto;
   margin-top: 65px;
   max-width: 338px;
 }
