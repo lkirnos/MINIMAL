@@ -47,6 +47,7 @@ header{
     width: 100%;
     background-color: #FFFFFF;
     top: 0;
+    z-index: 3;
     nav{
         li{
             margin-left: 34px;
@@ -484,7 +485,8 @@ footer{
 }
 
 .footer_main{
-    max-width: 564px; margin: auto;
+    max-width: 564px;
+    margin: auto;
 }
 
 .form_main{

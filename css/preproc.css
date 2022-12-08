@@ -36,6 +36,7 @@ header {
   width: 100%;
   background-color: #FFFFFF;
   top: 0;
+  z-index: 3;
 }
 header nav li {
   margin-left: 34px;
