@@ -195,13 +195,15 @@ header{
         color: #333333;
         @include max-screen(650px){
             font-size: 12px;
-            margin-left: 10px;
         }
     }
 }
 
 .brands_articles{
     max-width: 300px;
+            @include max-screen(650px){
+            max-width: 150px;
+        }
 }
 
 .brands_icons{

@@ -193,12 +193,16 @@ header nav li a:hover {
 @media screen and (max-width: 650px) {
   .brands p {
     font-size: 12px;
-    margin-left: 10px;
   }
 }
 
 .brands_articles {
   max-width: 300px;
+}
+@media screen and (max-width: 650px) {
+  .brands_articles {
+    max-width: 150px;
+  }
 }
 
 .brands_icons {
