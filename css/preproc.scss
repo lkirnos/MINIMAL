@@ -438,11 +438,19 @@ header{
                 margin-bottom: 63px;
             }
         }
+        .d_flex{
+            @include max-screen(658px){
+                display: block;
+            }
+        }
     }
 }
 
 .contacts{
     text-align: center;
+    @include max-screen(658px){
+        margin-top: 25px;
+    }
     img{
         margin-bottom: 26px;
     }
@@ -456,9 +464,6 @@ header{
         text-transform: uppercase;
         color: #333333;
         margin-bottom: 20px;
-        @include max-screen(500px){
-            font-size: 14px;
-        }
     }
     p{
         font-family: 'Vollkorn', serif;
@@ -468,9 +473,6 @@ header{
         line-height: 22px;
         text-align: center;
         color: #212121;
-        @include max-screen(500px){
-            font-size: 14px;
-        }
     }
     .contact_form{
         margin-top: 22px;
@@ -490,9 +492,6 @@ header{
         text-align: left;
         color: #212121;
         margin-bottom: 11px;
-        @include max-screen(500px){
-            font-size: 14px;
-        }
         &:first-of-type{
             &:before{
                 content: "";
