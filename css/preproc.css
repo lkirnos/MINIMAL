@@ -29,14 +29,22 @@ body {
   list-style: none;
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  #navbar {
+    display: block;
+  }
+}
 
 header {
-  padding: 18px 0;
+  padding: 18px 32px;
   position: fixed;
   width: 100%;
   background-color: #FFFFFF;
   top: 0;
   z-index: 3;
+}
+header nav {
+  margin-right: 66px;
 }
 header nav li {
   margin-left: 34px;
@@ -74,6 +82,11 @@ header nav li a:hover {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (max-width: 600px) {
+  .main_banner h1 {
+    font-size: 20px;
+  }
+}
 .main_banner h1:after {
   content: "";
   display: block;
@@ -99,6 +112,8 @@ header nav li a:hover {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .main_banner_description p {
   font-family: "Vollkorn", serif;
@@ -161,6 +176,11 @@ header nav li a:hover {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 650px) {
+  .brands h4 {
+    font-size: 14px;
+  }
+}
 .brands p {
   font-family: "Vollkorn", serif;
   font-style: normal;
@@ -169,6 +189,11 @@ header nav li a:hover {
   line-height: 22px;
   text-align: center;
   color: #333333;
+}
+@media screen and (max-width: 650px) {
+  .brands p {
+    font-size: 12px;
+  }
 }
 
 .brands_articles {
@@ -185,6 +210,12 @@ header nav li a:hover {
 .projects {
   padding: 79px 0 89px;
   background-color: #F5F5F5;
+}
+@media screen and (max-width: 900px) {
+  .projects .d_flex {
+    display: block;
+    padding: 32px;
+  }
 }
 .projects h2 {
   font-family: "montserratregular";
@@ -243,7 +274,12 @@ header nav li a:hover {
 
 .team {
   background-color: #FFFFFF;
-  padding: 49px 0 99px;
+  padding: 49px 32px 99px;
+}
+@media screen and (max-width: 968px) {
+  .team .container .d_flex {
+    flex-wrap: wrap;
+  }
 }
 .team .container h2 {
   font-family: "montserratregular";
@@ -309,10 +345,15 @@ header nav li a:hover {
 
 .quote {
   background-color: #F5F5F5;
-  padding: 69px 0 98px;
+  padding: 69px 32px 98px;
 }
 .quote .container {
   text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .quote .container .d_flex {
+    display: block;
+  }
 }
 .quote p {
   font-family: "Vollkorn", serif;
@@ -354,11 +395,16 @@ header nav li a:hover {
   margin-right: 52px;
   margin-left: 70px;
 }
+@media screen and (max-width: 650px) {
+  .review_before:before {
+    display: none;
+  }
+}
 
 .touch {
   background-color: #7EC4BD;
   background-image: url("..//images/touch_bg.jpg");
-  padding: 79px 0 75px;
+  padding: 79px 32px 75px;
 }
 .touch .container h2 {
   font-family: "montserratregular";
@@ -398,6 +444,11 @@ header nav li a:hover {
   color: #333333;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 500px) {
+  .contacts h3 {
+    font-size: 14px;
+  }
+}
 .contacts p {
   font-family: "Vollkorn", serif;
   font-style: normal;
@@ -406,6 +457,11 @@ header nav li a:hover {
   line-height: 22px;
   text-align: center;
   color: #212121;
+}
+@media screen and (max-width: 500px) {
+  .contacts p {
+    font-size: 14px;
+  }
 }
 .contacts .contact_form {
   margin-top: 22px;
@@ -425,6 +481,11 @@ header nav li a:hover {
   text-align: left;
   color: #212121;
   margin-bottom: 11px;
+}
+@media screen and (max-width: 500px) {
+  .contacts_social li {
+    font-size: 14px;
+  }
 }
 .contacts_social li:first-of-type:before {
   content: "";
@@ -453,7 +514,7 @@ header nav li a:hover {
 
 footer {
   background-color: #000000;
-  padding: 69px 0 75px;
+  padding: 69px 32px 75px;
   text-align: center;
 }
 
