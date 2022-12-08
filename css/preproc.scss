@@ -316,8 +316,11 @@ header{
 .social{
     width: 220px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     list-style: none;
+    li{
+        margin-left: 6px;
+    }
 }
 
 .quote{
@@ -423,10 +426,9 @@ header{
         text-align: center;
         color: #212121;
     }
-}
-
-.contact_form{
-    margin-top: 22px;
+    .contact_form{
+        margin-top: 22px;
+    }
 }
 
 .contacts_social{

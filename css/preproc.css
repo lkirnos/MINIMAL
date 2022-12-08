@@ -299,8 +299,11 @@ header nav li a:hover {
 .social {
   width: 220px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   list-style: none;
+}
+.social li {
+  margin-left: 6px;
 }
 
 .quote {
@@ -403,8 +406,7 @@ header nav li a:hover {
   text-align: center;
   color: #212121;
 }
-
-.contact_form {
+.contacts .contact_form {
   margin-top: 22px;
 }
 
