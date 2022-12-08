@@ -195,6 +195,7 @@ header{
         color: #333333;
         @include max-screen(650px){
             font-size: 12px;
+            margin-left: 10px;
         }
     }
 }
